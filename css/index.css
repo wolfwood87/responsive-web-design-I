@@ -200,6 +200,34 @@ footer{
     h1{
         font-size: 75px;
     }
+    .middle-section{
+        height: 475px;
+    }
+    .feat{
+        font-size: 12px;
+        padding: 15px;
+    }
+    .abo{
+        font-size: 12px;
+        padding: 15px;
+    }
+    .middle-img{
+        height: 150px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .serve{
+        font-size: 12px;
+        padding: 20px;
+    }
+    .prod{
+        font-size: 12px;
+        padding: 20px;
+    }
+    .vis{
+        font-size: 12px;
+        padding: 20px;
+    }
 }
 .serve-top{
 	display: flex;
