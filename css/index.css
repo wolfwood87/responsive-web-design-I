@@ -241,6 +241,22 @@ footer{
     footer{
         font-size: 12px;
     }
+    @media(max-width: 500px){
+        header{
+            height: 275px;
+            flex-direction: column-reverse;
+        }
+        body nav{
+            flex-direction: column;
+            text-align: center;
+        }
+        body nav a{
+            height: 30px;
+            padding: 1%;
+            border-top: 1px solid silver;
+            border-bottom: 1px solid silver;
+        }
+    }
 }
 .serve-top{
 	display: flex;
