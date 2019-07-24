@@ -256,6 +256,18 @@ footer{
             border-top: 1px solid silver;
             border-bottom: 1px solid silver;
         }
+        .middle-section{
+            height: 675px;
+        }
+        .section1{
+            flex-direction: column;
+        }
+        .middle-img{
+            height: 100px;
+        }
+        .section3{
+            flex-direction: column;
+        }
     }
 }
 .serve-top{
