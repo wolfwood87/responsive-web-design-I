@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 header{
 	height: 80px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
 }
 .top-section{
@@ -77,12 +77,15 @@ header{
 	align-items: center;
 	height: 750px;
 }
+body nav{
+    width: 60%;
+    display: flex;
+}
 body nav a{
 	color: lightgrey;
     text-decoration: none;
 	font-size: 23.8px;
-	width: 100%;
-	margin: 50px;
+    width: 100%;
  }
 
 h1{
@@ -180,16 +183,19 @@ footer{
     font-size: 23.8px;
 }
 
-@media(max-width: 768px){
+@media(max-width: 800px){
     .circle{
         display: none;
     }
     header{
         flex-direction: column-reverse;
     }
+    body nav{
+        width: 80%;
+        margin-top: 3%;
+    }
     body nav a{
         font-size: 16px;
-        margin: 25px;
     }
     .top-section{
         height: 400px;
@@ -201,7 +207,7 @@ footer{
         font-size: 75px;
     }
     .middle-section{
-        height: 475px;
+        height: 430px;
     }
     .feat{
         font-size: 12px;
@@ -227,6 +233,13 @@ footer{
     .vis{
         font-size: 12px;
         padding: 20px;
+    }
+    .bottom-section{
+        font-size: 12px;
+        margin: 20px auto;
+    }
+    footer{
+        font-size: 12px;
     }
 }
 .serve-top{
