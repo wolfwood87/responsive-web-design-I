@@ -212,6 +212,9 @@ footer{
     .circle{
         display: none;
     }
+    .logo{
+        height: 30px;
+    }    
     header{
         flex-direction: column-reverse;
     }
@@ -286,6 +289,9 @@ footer{
     header{
         height: 230px;
         flex-direction: column-reverse;
+    }
+    .logo{
+        height: 25px;
     }
     body nav{
         flex-direction: column;
