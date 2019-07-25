@@ -99,7 +99,7 @@ h1{
 #button{
     display: block;
     text-decoration: none;
-    color: rgb(58, 56, 56);
+    color: black;
 	height: 40px;
 	width: 200px;
     font-size: 23.8px;
@@ -110,7 +110,7 @@ h1{
 }
 #button:hover{
     color: black;
-    background: lightgray;
+    background: radial-gradient(white 0%, silver 60%, black 100%);
 }
 .enter{
     display: flex;
