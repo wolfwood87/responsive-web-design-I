@@ -83,7 +83,7 @@ body nav{
     justify-content: space-evenly;
 }
 body nav a{
-    color: lightgrey;
+    color: gray;
     text-decoration: none;
 	font-size: 23.8px;
 }
