@@ -87,7 +87,11 @@ body nav a{
 	font-size: 23.8px;
     width: 100%;
  }
-
+body nav a:hover{
+    color: black;
+    -webkit-stroke-width: 5.3px;
+    text-shadow: 1px 0px 20px black;
+    }
 h1{
     font-size: 100px;
 	text-align: center;
@@ -96,8 +100,8 @@ h1{
     display: block;
     text-decoration: none;
     color: rgb(58, 56, 56);
-	height: 45px;
-	width: 225px;
+	height: 40px;
+	width: 200px;
     font-size: 23.8px;
     text-align: center;
     line-height: normal;
@@ -105,14 +109,15 @@ h1{
 	align-self: center;
 }
 #button:hover{
-    color: white;
-    background: rgb(58, 56, 56);
+    color: black;
+    background: lightgray;
 }
 .enter{
     display: flex;
     height: 375px;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+
 }
 .circle{
 	width: 33%;
@@ -201,49 +206,49 @@ footer{
         height: 400px;
     }
     .enter{
-        justify-content: space-evenly;
+        justify-content: center;
     }
     h1{
         font-size: 75px;
     }
     .middle-section{
-        height: 430px;
+        height: 47%;
     }
     .feat{
-        font-size: 12px;
+        font-size: 13px;
         padding: 15px;
     }
     .abo{
-        font-size: 12px;
+        font-size: 13px;
         padding: 15px;
     }
     .middle-img{
-        height: 150px;
+        height: 100px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
     .serve{
-        font-size: 12px;
+        font-size: 13px;
         padding: 20px;
     }
     .prod{
-        font-size: 12px;
+        font-size: 13px;
         padding: 20px;
     }
     .vis{
-        font-size: 12px;
+        font-size: 13px;
         padding: 20px;
     }
     .bottom-section{
-        font-size: 12px;
+        font-size: 13px;
         margin: 20px auto;
     }
     footer{
-        font-size: 12px;
+        font-size: 13px;
     }
     @media(max-width: 500px){
         header{
-            height: 275px;
+            height: 230px;
             flex-direction: column-reverse;
         }
         body nav{
@@ -256,6 +261,9 @@ footer{
             border-top: 1px solid silver;
             border-bottom: 1px solid silver;
         }
+        .top-section{
+            height: 375px;
+        }
         .middle-section{
             height: 675px;
         }
@@ -267,6 +275,9 @@ footer{
         }
         .section3{
             flex-direction: column;
+        }
+        .bottom-section{
+            height: 100px;
         }
     }
 }
