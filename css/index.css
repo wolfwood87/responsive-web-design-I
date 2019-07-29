@@ -237,7 +237,7 @@ footer{
 .serve-bottom{
 	display: flex;
 	justify-content: space-around;
-	height: 30vw;
+	height: 350px;
 	margin-bottom: 5vw;
 }
 .serve-fact{
@@ -269,11 +269,16 @@ footer{
     .serve-top{
         height: 350px;
     }
+    .serve-bottom{
+        height: 350px;
+    }
+    
 }
 @media(max-width:990px){
     .middle-section{
         height:875px;
     }
+    
     
 }
 @media(max-width: 875px){
@@ -281,9 +286,14 @@ footer{
         height:925px;
     }
     .serve-button{
-        width: 300px;
+        width: 200px;
+        height: 30px;
         padding: .25rem;
     }
+    .serve-bottom{
+        height: 400px;
+    }
+    
 }
 
 @media(max-width: 800px){
@@ -349,10 +359,31 @@ footer{
         font-size: 13px;
     }
     .serve-top{
-        height: 300px;
+        height: 225px;
     }
     .services-header-img{
         height: 150px;
+    }
+    .serve-top{
+        font-size: 13px;
+    }
+    .serve-middle{
+        font-size: 13px;
+        height: 800px;
+    }
+    .serve-bottom{
+        height: 200px;
+    }
+    .serve-fact{
+        font-size: 13px;
+    }
+    .serve-middle .box_middle{
+        height: 200px;
+    }
+    .serve-button{
+        width: 100px;
+        height: 25px;
+        align-self: center;
     }
 }
 
@@ -407,24 +438,24 @@ footer{
         height: 100px;
     }
     .serve-top{
-        height: 400px;
+        height: 225px;
     }
     .serve-middle{
-        height: 2100px;
+        height: 1400px;
         flex-direction: column;
         align-items: center;
         flex-wrap: none;
     }
     .serve-middle .box_middle{
         width: 80%;
-        height: 335px;
+        height: 200px;
     }
     .serve-button{
-        height: 40px;
+        height: 30px;
         align-self: center;
     }
     .serve-bottom{
-        height: 400px;
+        height: 200px;
         flex-direction: column;
     }
     .serve-fact{
